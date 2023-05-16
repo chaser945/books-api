@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.book-card {
+  /* border: 1px solid black; */
+  margin: 1em;
+  text-align: center;
+}
